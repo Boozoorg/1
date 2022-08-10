@@ -1,0 +1,6 @@
+GET https://localhost:5432/client.getByName?name=Boozoorg  HTTP/1.1
+
+###
+
+POST https://localhost:5432/client.getByName?name=sample HTTP/1.1
+content-type: application/json
